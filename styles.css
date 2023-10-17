@@ -190,7 +190,7 @@ section{
     text-align: center;
 }
 
-.socials-container{
+#socials-container{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -249,4 +249,59 @@ color: white;
 
 .btn-container{
     gap: 1rem;
+}
+
+
+/*----ABOUT SECTION------*/
+
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+    height: 55vh;
+}
+.section__text__p1{
+    text-align: center;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
